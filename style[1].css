@@ -1,0 +1,33 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+h1 {
+  text-align: center;
+}
+.anio {
+  background: #fff;
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #ccc;
+}
+.ramo {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+.ramo.aprobado {
+  background-color: #9be7a1;
+}
+.ramo.habilitado {
+  background-color: #81d4fa;
+}
+.ramo.pendiente {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}

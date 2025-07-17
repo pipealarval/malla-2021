@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Malla Curricular Interactiva</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Malla Curricular - Contador Auditor</h1>
+  <div class="malla">
+
+    <!-- Año 1 -->
+    <div class="anio">
+      <h2>Año 1</h2>
+      <div class="ramo" data-nombre="Matemática Aplicada I">Matemática Aplicada I</div>
+      <div class="ramo" data-nombre="Fundamentos de Contabilidad">Fundamentos de Contabilidad</div>
+      <div class="ramo" data-nombre="Administración">Administración</div>
+      <div class="ramo" data-nombre="Taller de Comunicación Oral y Escrita">Taller de Comunicación Oral y Escrita</div>
+      <div class="ramo" data-nombre="Taller de Liderazgo y Trabajo en Equipo">Taller de Liderazgo y Trabajo en Equipo</div>
+      <div class="ramo" data-nombre="Contabilidad I" data-requisitos="Fundamentos de Contabilidad">Contabilidad I</div>
+      <div class="ramo" data-nombre="Matemática Aplicada II" data-requisitos="Matemática Aplicada I">Matemática Aplicada II</div>
+    </div>
+
+    <!-- Año 2 -->
+    <div class="anio">
+      <h2>Año 2</h2>
+      <div class="ramo" data-nombre="Costos para la Gestión" data-requisitos="Contabilidad I">Costos para la Gestión</div>
+      <div class="ramo" data-nombre="Estadística Aplicada" data-requisitos="Matemática Aplicada II">Estadística Aplicada</div>
+      <div class="ramo" data-nombre="Contabilidad II" data-requisitos="Contabilidad I">Contabilidad II</div>
+      <div class="ramo" data-nombre="Microeconomía">Microeconomía</div>
+      <div class="ramo" data-nombre="Derecho Económico">Derecho Económico</div>
+      <div class="ramo" data-nombre="Contabilidad Financiera Intermedia" data-requisitos="Contabilidad II">Contabilidad Financiera Intermedia</div>
+    </div>
+
+    <!-- Año 3 -->
+    <div class="anio">
+      <h2>Año 3</h2>
+      <div class="ramo" data-nombre="Contabilidad Financiera Avanzada" data-requisitos="Contabilidad Financiera Intermedia">Contabilidad Financiera Avanzada</div>
+      <div class="ramo" data-nombre="Gestión Tributaria I" data-requisitos="Contabilidad Financiera Intermedia">Gestión Tributaria I</div>
+      <div class="ramo" data-nombre="Finanzas I" data-requisitos="Estadística Aplicada">Finanzas I</div>
+      <div class="ramo" data-nombre="Auditoría I" data-requisitos="Contabilidad Financiera Intermedia">Auditoría I</div>
+      <div class="ramo" data-nombre="NIIF para PYMES" data-requisitos="Contabilidad Financiera Avanzada">NIIF para PYMES</div>
+    </div>
+
+    <!-- Año 4 -->
+    <div class="anio">
+      <h2>Año 4</h2>
+      <div class="ramo" data-nombre="Auditoría II" data-requisitos="Auditoría I">Auditoría II</div>
+      <div class="ramo" data-nombre="Gestión Tributaria II" data-requisitos="Gestión Tributaria I">Gestión Tributaria II</div>
+      <div class="ramo" data-nombre="Contabilidad Internacional" data-requisitos="NIIF para PYMES">Contabilidad Internacional</div>
+      <div class="ramo" data-nombre="Seminario de Título" data-requisitos="Auditoría II, Contabilidad Internacional">Seminario de Título</div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
